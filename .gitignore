@@ -1,0 +1,20 @@
+build
+.gradle
+run
+out
+.idea
+*.iml
+bin
+.settings
+.classpath
+.project
+run-gametest
+*-log.txt
+# local reference files
+decompiled
+__pycache__
+
+# local only
+/tools/
+/publish/
+miners dream textures.png

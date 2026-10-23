@@ -1,0 +1,35 @@
+{
+  "item.minersdream.miners_dream": "Miners Dream",
+  "item.minersdream.iron_miners_dream": "Iron Miners Dream",
+  "item.minersdream.gold_miners_dream": "Gold Miners Dream",
+  "item.minersdream.diamond_miners_dream": "Diamond Miners Dream",
+  "item.minersdream.netherite_miners_dream": "Netherite Miners Dream",
+
+  "enchantment.minersdream.reach": "Reach",
+  "enchantment.minersdream.reach.desc": "Miners Dream tunnels reach 25% further per level.",
+  "enchantment.minersdream.blast_radius": "Blast Radius",
+  "enchantment.minersdream.blast_radius.desc": "Miners Dream tunnels are 2 blocks wider and taller per level.",
+
+  "dimension.minersdream.overworld": "the Overworld",
+  "dimension.minersdream.overworld_and_nether": "the Overworld and the Nether",
+  "dimension.minersdream.all": "the Overworld, the Nether and the End",
+
+  "tooltip.minersdream.tunnel": "Right-click a block to blast %s blocks (%s×%s), leaving the ores",
+  "tooltip.minersdream.aim": "Goes the way you look, up and down too",
+  "tooltip.minersdream.works_in": "Works in %s",
+  "tooltip.minersdream.uses": "Uses left: %s / %s",
+  "tooltip.minersdream.unbreakable": "Never runs out",
+
+  "message.minersdream.wrong_dimension": "This Miners Dream only works in %s",
+
+  "advancements.minersdream.root.title": "Miners Dream",
+  "advancements.minersdream.root.description": "Get a Miners Dream",
+  "advancements.minersdream.first_blast.title": "Fire in the Hole",
+  "advancements.minersdream.first_blast.description": "Blast your first tunnel",
+  "advancements.minersdream.iron.title": "Ironclad Dream",
+  "advancements.minersdream.iron.description": "Upgrade a Miners Dream with a Block of Iron",
+  "advancements.minersdream.diamond.title": "Dreaming Big",
+  "advancements.minersdream.diamond.description": "Make a Diamond Miners Dream",
+  "advancements.minersdream.netherite.title": "Infinite Dream",
+  "advancements.minersdream.netherite.description": "Make a Netherite Miners Dream, the one that never runs out"
+}

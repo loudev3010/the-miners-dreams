@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "minecraft:tnt" },
+  "base": { "item": "minersdream:diamond_miners_dream" },
+  "addition": { "item": "minecraft:netherite_block" },
+  "result": { "item": "minersdream:netherite_miners_dream" }
+}

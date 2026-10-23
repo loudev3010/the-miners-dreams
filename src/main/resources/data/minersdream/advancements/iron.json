@@ -1,0 +1,31 @@
+{
+  "parent": "minersdream:first_blast",
+  "display": {
+    "icon": {
+      "item": "minersdream:iron_miners_dream"
+    },
+    "title": {
+      "translate": "advancements.minersdream.iron.title"
+    },
+    "description": {
+      "translate": "advancements.minersdream.iron.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minersdream:iron_miners_dream"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

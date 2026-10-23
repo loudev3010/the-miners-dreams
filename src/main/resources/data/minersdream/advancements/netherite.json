@@ -1,0 +1,31 @@
+{
+  "parent": "minersdream:diamond",
+  "display": {
+    "icon": {
+      "item": "minersdream:netherite_miners_dream"
+    },
+    "title": {
+      "translate": "advancements.minersdream.netherite.title"
+    },
+    "description": {
+      "translate": "advancements.minersdream.netherite.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minersdream:netherite_miners_dream"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

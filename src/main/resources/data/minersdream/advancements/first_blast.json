@@ -1,0 +1,32 @@
+{
+  "parent": "minersdream:root",
+  "display": {
+    "icon": {
+      "item": "minersdream:miners_dream"
+    },
+    "title": {
+      "translate": "advancements.minersdream.first_blast.title"
+    },
+    "description": {
+      "translate": "advancements.minersdream.first_blast.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "tag": "minersdream:miners_dreams"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
