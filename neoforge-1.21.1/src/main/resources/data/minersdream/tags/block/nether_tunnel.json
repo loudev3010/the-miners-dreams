@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_nether",
+    "#minecraft:nylium",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:magma_block",
+    "minecraft:gravel",
+    "minecraft:smooth_basalt",
+    {
+      "id": "#minecraft:nether_carver_replaceables",
+      "required": false
+    },
+    {
+      "id": "#c:netherracks",
+      "required": false
+    }
+  ]
+}

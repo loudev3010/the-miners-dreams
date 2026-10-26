@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minersdream:miners_dream"
+    },
+    "title": {
+      "translate": "advancements.minersdream.root.title"
+    },
+    "description": {
+      "translate": "advancements.minersdream.root.description"
+    },
+    "background": "minecraft:textures/block/deepslate.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minersdream:miners_dreams"
+          }
+        ]
+      }
+    }
+  }
+}

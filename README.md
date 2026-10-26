@@ -1,6 +1,6 @@
 # The Miners Dreams
 
-Forge 1.20.1 mod. Right click a block with a Miners Dream and it blasts a tunnel the way you're looking (up and down too), leaving all the ores in the walls. Based on the Miners Dream from OreSpawn.
+Forge 1.20.1 and NeoForge 1.21.1 mod. Right click a block with a Miners Dream and it blasts a tunnel the way you're looking (up and down too), leaving all the ores in the walls. Based on the Miners Dream from OreSpawn.
 
 Download on [Modrinth](https://modrinth.com/mod/the-miners-dreams) or CurseForge.
 
@@ -23,9 +23,11 @@ Also has Reach and Blast Radius enchantments, dispenser support and a config (`c
 ## Building
 
 ```
-./gradlew build
+./gradlew build                 # Forge 1.20.1
 ./gradlew runGameTestServer
 ```
+
+The NeoForge 1.21.1 version is in `neoforge-1.21.1/` (same commands, run from that folder, needs Java 21).
 
 ## License
 

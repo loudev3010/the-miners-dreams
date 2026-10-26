@@ -1,0 +1,29 @@
+{
+  "parent": "minersdream:iron",
+  "display": {
+    "icon": {
+      "id": "minersdream:diamond_miners_dream"
+    },
+    "title": {
+      "translate": "advancements.minersdream.diamond.title"
+    },
+    "description": {
+      "translate": "advancements.minersdream.diamond.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minersdream:diamond_miners_dream"
+          }
+        ]
+      }
+    }
+  }
+}
